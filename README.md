@@ -28,6 +28,7 @@ wget --no-check-certificate -O backup.run https://raw.githubusercontent.com/wuko
 
 ```
 临时绕过证书检查
+
 > 每次备份都是完整的,可以经常备份,比如每月备份一次
 ### 🤔 如何自定义备份的路径？方法如下
 https://github.com/wukongdaily/OpenBackRestore/wiki
@@ -50,9 +51,9 @@ sh backup.run /mnt/sata1-4
 ### ❤️恢复命令如下
 
 ```bash 
-wget -O restore.run https://cafe.cpolar.cn/wkdaily/OpenBackRestore/raw/branch/master/backup/restore.run && sh restore.run
+wget --no-check-certificate -O restore.run https://raw.githubusercontent.com/wukongdaily/OpenBackRestore/master/backup/restore.run && sh restore.run
 ```
-
+临时绕过证书检查
 
 ## 🚀 方法二 手动方式
 
