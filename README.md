@@ -43,6 +43,8 @@ wget --no-check-certificate -O restore.run https://raw.githubusercontent.com/wuk
 
 ## 🚀 方法二 手动方式
 
+前提条件，固件已有，luci-app-run 插件
+
 > 1、在release页面下载backup.run或restore.run<br>
 https://github.com/wukongdaily/OpenBackRestore/releases/latest <br>
 > 2、打开iStore应用商店,点击手动安装,将run文件拖拽上去即可执行。<br>
