@@ -29,7 +29,7 @@ wget --no-check-certificate -O backup.run https://raw.githubusercontent.com/wuko
 ```
 临时绕过证书检查
 
-### 2. 恢复备份 
+### 2. 命令行恢复备份 
 
 **使用前提** 将备份档案提前上传到 `/tmp/upload/` 目录,如图<br><br>![huifu](https://github.com/wukongdaily/OpenBackRestore/assets/143675923/cd111f10-e6aa-4011-a046-b3004f77c7eb)
 
