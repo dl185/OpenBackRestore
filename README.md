@@ -24,8 +24,10 @@
 
 ### 1. 生成备份`/tmp/upload/backup.tar.gz`
 ```bash 
-wget -O backup.run https://cafe.cpolar.cn/wkdaily/OpenBackRestore/raw/branch/master/backup/backup.run && sh backup.run
+wget --no-check-certificate -O backup.run https://raw.githubusercontent.com/wukongdaily/OpenBackRestore/master/backup/backup.run && sh backup.run
+
 ```
+临时绕过证书检查
 > 每次备份都是完整的,可以经常备份,比如每月备份一次
 ### 🤔 如何自定义备份的路径？方法如下
 https://github.com/wukongdaily/OpenBackRestore/wiki
